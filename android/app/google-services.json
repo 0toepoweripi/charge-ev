@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414893524286",
+    "project_id": "epoweripi-charge-ev",
+    "storage_bucket": "epoweripi-charge-ev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414893524286:android:ca5340501f16e225c7986f",
+        "android_client_info": {
+          "package_name": "com.epoweripi.charge_ev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414893524286-2v9o7soeh56ujueo1lo4e0abam9lpm89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6O3uzSCnBZcN2XoAj-_oVAQNpPE8CLwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414893524286-2v9o7soeh56ujueo1lo4e0abam9lpm89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
