@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:charge_ev/Controllers/device_location_service.dart';
 import 'package:charge_ev/Models/charging_station.dart';
+import 'package:charge_ev/Services/device_location_service.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';

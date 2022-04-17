@@ -1,4 +1,4 @@
-import 'package:charge_ev/UI/Pages/home_page.dart';
+import 'package:charge_ev/UI/Pages/map_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: MapPage(),
     );
   }
 }
