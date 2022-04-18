@@ -1,7 +1,8 @@
 import 'package:geolocator/geolocator.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class DeviceLocationService {
-  Future<Position> determinePosition() async {
+  Future<LatLng> determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
 
@@ -19,10 +20,9 @@ class DeviceLocationService {
     }
 
     if (permission == LocationPermission.deniedForever) {
-      return Future.error(
-          'Location permissions are permanently denied, we cannot request permissions.');
+      return Future.error('Location permissions are permanently denied, we cannot request permissions.');
     }
-
-    return await Geolocator.getCurrentPosition();
+    Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    return LatLng(position.latitude, position.longitude);
   }
 }
